@@ -49,3 +49,7 @@ function x(random){    // this is the main function
 
 
 
+document.querySelector('.reset').addEventListener('click', function(){
+  window.location.reload();
+});
+
