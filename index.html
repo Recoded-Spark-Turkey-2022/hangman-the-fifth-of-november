@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <img class="logo" src="/images/logo.jpg" alt="logo">
+  <img class="logo" src="/images/logo.png" alt="logo">
   <div class="container" id="container">
     <div class="letters" id="letters">
      <button class="letter-btn" value="a" id="a">a</button>
@@ -37,19 +37,21 @@
      <button class="letter-btn" value="y" id="y">y</button>
      <button class="letter-btn" value="z" id="z">z</button>
     </div>
+    <div id="img-container">
+      
+    </div>
     <div class="holder" id="holder">
      
     </div>
-
-    <div id="img-container"></div>
     <div class="counter" id= 'counter'>
      
     </div>
-    <button class="rest" id="rest">play again</button>
+    <button class="reset" id="reset">play again</button>
 
     
   </div>
-
+  <div><audio id="sound1" src="/sounds/correct.aac"></audio>
+  <audio id="sound2" src='/sounds/false.aac'></audio></div>
   <script src="./scripts/script.js"></script>
 </body>
 </html>
