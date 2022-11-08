@@ -101,9 +101,9 @@ function createWelcomePage(){                      //this function is to create 
   author.classList.add('authors')
   welcomePage.appendChild(author)
   author.innerHTML = `<div><a href='https://www.facebook.com/ahmmhd.mhd' class='author'></a><br><p>Ahmad Al-Hariri</p></div>     
-  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author1'></a><br><p>By Sara Sallat</p></div>
-  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author2'></a><br><p>By Nour Maleh</p></div>
-  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author3'></a><br><p>By Selvi Dugan</p></div>`  // assigning innner html to the authosrs
+  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author1'></a><br><p> Sara Sallat</p></div>
+  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author2'></a><br><p> Nour Maleh</p></div>
+  <div><a href='https://www.facebook.com/ahmmhd.mhd' class='author3'></a><br><p> Selvi Ece Dugan</p></div>`  // assigning innner html to the authosrs
   start.addEventListener('click',e=>{               // adding event to the start button
     e.preventDefault()
     let videoDiv = document.createElement('div')    // when the start button is pressed the sound of an video will be played in the background(this sound must be like a hint for the word but because we don't know what the word is I choosed a sound represent our team)
